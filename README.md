@@ -13,10 +13,20 @@ After deploying the hook the node_modules will be available at "/js/node_modules
 	    <header-portal-javascript>/js/node_modules/reflect-metadata/Reflect.js</header-portal-javascript>
 	    <header-portal-javascript>/js/node_modules/systemjs/dist/system.src.js</header-portal-javascript> 
 	    
-	    
 This hook is using:
 * Maven
 * NodeJS
 * NPM
 * frontend-maven-plugin by Eirik Sletteberg: https://github.com/eirslett/frontend-maven-plugin
-* liferay-maven-plugin to easily deploy the hook (requires the liferay maven properties to be set as described here: https://dev.liferay.com/develop/tutorials/-/knowledge_base/6-2/using-liferay-maven-parent-plugin-projects)
+* liferay-maven-plugin to easily deploy the hook 
+
+
+## Install 
+
+	    mvn clean install
+	    
+## Deploy
+
+	    mvn clean install -Pdeploy
+	    
+(requires the liferay maven properties to be set as described here: https://dev.liferay.com/develop/tutorials/-/knowledge_base/6-2/using-liferay-maven-parent-plugin-projects)
