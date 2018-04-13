@@ -1,4 +1,6 @@
 # liferay-angular2-hook
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMAIOLIX%2Fliferay-angular2-hook.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMAIOLIX%2Fliferay-angular2-hook?ref=badge_shield)
+
 Liferay AngularJS 2 Hook 
 
 This hook adds the required dependencies for AngularJS 2 to Liferay, so they can be referenced by portlets without needing to package them inside the war file.
@@ -30,3 +32,6 @@ This hook is using:
 	    mvn clean install -Pdeploy
 	    
 (requires the liferay maven properties to be set as described here: https://dev.liferay.com/develop/tutorials/-/knowledge_base/6-2/using-liferay-maven-parent-plugin-projects)
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMAIOLIX%2Fliferay-angular2-hook.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FMAIOLIX%2Fliferay-angular2-hook?ref=badge_large)
